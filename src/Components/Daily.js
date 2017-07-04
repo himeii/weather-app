@@ -14,12 +14,9 @@ class Daily extends Component{
                     <p className="little">Min: {this.props.day.temperatureMin}&deg;C</p>
                     <p className="little">{this.props.day.summary}</p>
                 </div>
-
             </div>
-
         )
     }
-
 }
 
 export default Daily;

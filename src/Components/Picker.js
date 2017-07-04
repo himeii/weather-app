@@ -9,7 +9,7 @@ class Picker extends Component{
     constructor(){
         super();
         this.state = {
-            city: ""
+            city: this.props.city
         }
     }
 
@@ -21,7 +21,6 @@ class Picker extends Component{
 
     change(val){
         this.setState({city: val.value}, function () {
-            console.log(this.state.city);
             this.props.changeCity(this.state.city);
         });
     }
@@ -32,13 +31,7 @@ class Picker extends Component{
             return {
                 value : city, label : city
             }
-
         });
-
-        console.log(options);
-        let value = this.refs;
-        console.log(value);
-
 
         return (
             <Select options = {options}

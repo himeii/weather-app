@@ -58,8 +58,6 @@ class App extends Component {
     let data_art = "./wp/data-art-logo.svg";
     let contentClassName = "App content " + this.state.icon;
 
-    console.log(backgroundURL);
-    console.log(this.state);
     return (
       <div className="body">
           <div className="background" style={style}>
@@ -75,7 +73,7 @@ class App extends Component {
                       <div className="col-md-3"/>
                       <div className="col-md-3"/>
                       <div className="col-md-3">
-                          <Picker changeCity = {this.changeCity.bind(this)}/>
+                          <Picker city={this.state.city} changeCity = {this.changeCity.bind(this)}/>
                       </div>
                   </div>
 
@@ -83,7 +81,6 @@ class App extends Component {
 
               </header>
               <div className="container show-weather">
-
                   <div className="row">
                       <h3 className="text-center city-name">{this.state.city}</h3>
                       <Weather city = {this.state.city}
