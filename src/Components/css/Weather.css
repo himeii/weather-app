@@ -1,0 +1,26 @@
+.heading>h2{
+    font-weight: 300;
+    margin: 60px 0;
+}
+
+.day-icon{
+    font-size: 120px;
+}
+
+.item{
+    text-align: center;
+}
+
+.weather{
+    margin-top: 80px;
+}
+
+.daily{
+    margin-top: 40px;
+}
+
+.info{
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 300;
+}

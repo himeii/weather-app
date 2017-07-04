@@ -1,0 +1,52 @@
+
+
+.select-custom{
+    outline: none;
+    color: #FAFAFA;
+    font-weight: 200;
+    letter-spacing: 1px;
+    font-size: 25px;
+    width: 400px;
+    display: inline-block;
+    background-color: rgba(0,0,0,0);
+}
+
+.is-focused:not(.is-open) > .Select-control{
+    border-color: #FAFAFA;
+    box-shadow: none;
+    outline: none;
+}
+
+.has-value.Select--single > .Select-control .Select-value .Select-value-label, .has-value.is-pseudo-focused.Select--single > .Select-control .Select-value .Select-value-label{
+    color: #FAFAFA;
+}
+
+.Select-arrow{
+    border: none;
+}
+
+.Select-arrow-zone{
+    width: 40px;
+    height: 30px;
+    background: url(../assets/arrow2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.select-custom>.Select-control{
+    height: 45px;
+    outline: none;
+    background: transparent;
+    border-radius: 0;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid #FAFAFA;
+}
+
+.Select-placeholder{
+    color: #FAFAFA;
+}
+
+
