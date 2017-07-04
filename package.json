@@ -2,10 +2,10 @@
   "name": "weather-art",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://himeii.github.io/weather-app",
   "dependencies": {
     "font-awesome": "^4.7.0",
     "gh-pages": "^1.0.0",
-    "homepage": "https://himeii.github.io/weather-app",
     "jquery": "^3.2.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
