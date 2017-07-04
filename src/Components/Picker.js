@@ -9,8 +9,12 @@ class Picker extends Component{
     constructor(){
         super();
         this.state = {
-            city: this.props.city
+            city: ""
         }
+    }
+
+    componentWillMount(){
+        this.setState({city:this.props.city});
     }
 
     static defaultProps = {
